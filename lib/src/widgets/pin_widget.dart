@@ -25,6 +25,7 @@ class _PinWidgetState extends BaseState<PinWidget> {
     return new CustomAlertDialog(
       content: new SingleChildScrollView(
         child: new Container(
+          color: Color(0xff1A2452),
           padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
           child: Column(
             mainAxisSize: MainAxisSize.min,

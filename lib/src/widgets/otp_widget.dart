@@ -26,6 +26,7 @@ class _OtpWidgetState extends BaseState<OtpWidget> {
     return new CustomAlertDialog(
       content: new SingleChildScrollView(
         child: new Container(
+          color: Color(0xff1A2452),
           padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
           child: new Form(
             key: _formKey,
