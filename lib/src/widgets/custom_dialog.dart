@@ -57,6 +57,7 @@ class CustomAlertDialog extends StatelessWidget {
     if (fullscreen) {
       widget = new Material(
         child: new Container(
+            color: Color(0xff1A2452),
             child: onCancelPress == null
                 ? new Padding(
                     padding: const EdgeInsets.symmetric(
